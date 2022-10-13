@@ -1,0 +1,22 @@
+.container {
+  background-color: rgb(189, 79, 152);
+  font-size: 29px;
+}
+.container:hover + .container__img {
+  display: none;
+}
+
+h1:hover + p {
+  color: rgb(173, 70, 70);
+}
+
+.card {
+  margin-left: 100px;
+  margin-top: 80px;
+}
+
+.cardcard__box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}/*# sourceMappingURL=StyleScss.css.map */
